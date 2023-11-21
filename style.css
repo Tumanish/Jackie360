@@ -693,6 +693,7 @@ header {
 }
 
 .footer-title1 {
+	width: 320px;
 	color: #FFF;
 	font-feature-settings: 'clig' off, 'liga' off;
 	font-family: Montserrat;
