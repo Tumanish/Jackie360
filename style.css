@@ -720,7 +720,7 @@ header {
 
 .footer-grid {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 170px 1fr;
 }
 
 .footer-grid-left-text {
