@@ -5,56 +5,26 @@
 	font-weight: normal;
 }
 
-
 body {
 	display: grid;
-	/* grid-template-columns: 1fr minmax(360px, 1600px) 1fr; */
 	grid-template-columns: 1fr 360px 1fr;
 	grid-template-rows: 3180px;
-	/* grid-template-rows: 3000px; */
-	/* align-items:start; */
 }
 
-
-
 .background {
-	/* background-image: url("./img/wallpaper.png"); */
 	background-image: url("./img/wall.png");
-	/* background-image: url("./img/mobileWallpaper.jpg"); */
-
-	/* background-repeat: no-repeat; */
-	/* background-attachment: scroll; */
-	/* background-position: center center; */
-
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(20, max-content);
 	justify-items: center;
 }
 
-
-
-
-
-
 .header-mobile {
-	/* margin-top: 49px; */
-	/* margin-left: 29px; */
-	/* padding-top: 49px; */
-	/* padding-left: 29px; */
-	/* padding-right: 33px; */
 	width: 100%;
 	height: 100%;
 	display: grid;
-
 	grid-template-columns: 1fr 120px;
 	grid-template-rows: max-content max-content max-content max-content;
-}
-
-
-
-.conteiner-m-t-a {
-	/* название и аватарка со звездами */
 }
 
 .conteiner-s-b-m {
@@ -70,11 +40,8 @@ body {
 	grid-area: bell;
 
 	justify-self: end;
-	/* align-self: end; */
 	position: relative;
-	/* top: -80px; */
 	top: 105px;
-	/* left: -10px; */
 }
 
 .bell {
@@ -87,13 +54,9 @@ body {
 	z-index: 1;
 }
 
-
-
-
 header {
 	width: 360px;
 	width: 100%;
-	/* height: 292px; */
 	height: 190px;
 	background-color: black;
 	font-family: "Montserrat";
@@ -103,9 +66,6 @@ header {
 	justify-content: center;
 	grid-template-columns: minmax(360px, 1200px);
 
-	/* padding-left: 29px; */
-	/* padding-top: 49px; */
-	/* padding-right: 33px; */
 	overflow: hidden;
 }
 
@@ -147,11 +107,9 @@ header {
 
 .container-b {
 	justify-self: right;
-	/* align-self: end; */
 	width: 100px;
 	height: 100%;
 	grid-area: b;
-	/* background-color: green; */
 
 	display: grid;
 	grid-template-columns: auto auto auto;
@@ -159,27 +117,9 @@ header {
 	align-items: end;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .container-c {
-	/* width: 325px; */
 	height: 69px;
 	grid-area: c;
-	/* background-color: aquamarine; */
 	display: grid;
 	grid-template-columns: 1fr;
 	justify-items: end;
@@ -200,16 +140,11 @@ header {
 	margin: 2px 0;
 }
 
-
-
-
 /* AVATAR */
 .avatar {
 	width: 220px;
 	height: 69px;
 	display: grid;
-	/* justify-items: center; */
-	/* align-items: center; */
 	background-color: black;
 	grid-template-columns: 70px max-content;
 	gap: 10px;
@@ -225,21 +160,18 @@ header {
 	border: 2px solid green;
 	position: relative;
 	top: 2px;
-	/* padding-left: 22px; */
 }
 
 .avatar-wrapper img {
 	position: relative;
 	left: -4px;
 	top: -10px;
-
 }
 
 
 .avatar__name {
 	color: white;
 	font-family: "Montserrat";
-	/* position: relative; */
 }
 
 .name-stars--wrapper {
@@ -272,11 +204,6 @@ header {
 	align-items: end;
 }
 
-.bag-wrapper {
-	/* position: relative; */
-	/* left: 30px; */
-	/* top: 5px */
-}
 
 .rating {
 
@@ -300,8 +227,6 @@ header {
 	grid-template-columns: 40px 40px;
 	align-items: end;
 	position: relative;
-	/* left: 30px; */
-	/* top: 5px */
 }
 
 
@@ -311,16 +236,12 @@ header {
 	height: 69px;
 	width: 50px;
 	justify-self: start;
-	/* align-self: start; */
 	cursor: pointer;
 }
 
 
-/* vodeo */
-/* ///////////////////////////////////////// */
-
+/* video */
 .section-main-video {
-	/* width: 100%; */
 	overflow: hidden;
 }
 
@@ -331,7 +252,6 @@ header {
 }
 
 .section-main-video__title {
-
 	height: 20px;
 	width: 200px;
 
@@ -343,7 +263,6 @@ header {
 	font-weight: 600;
 	line-height: 130%;
 	padding-left: 87px;
-	/* 18.2px */
 }
 
 
@@ -358,7 +277,6 @@ header {
 	justify-content: left;
 	justify-items: center;
 	align-items: center;
-
 
 	padding-left: 21px;
 
@@ -379,9 +297,6 @@ header {
 	font-style: italic;
 	font-weight: 500;
 	line-height: 98.5%;
-	/* 13.79px */
-
-
 }
 
 .section-main-video__discription-views {
@@ -418,20 +333,16 @@ header {
 	width: 360px;
 	height: 367px;
 	border-radius: 15px;
-	/* background: linear-gradient(252deg, #FFD466 -54.76%, #F00 103.16%); */
 
 	background: linear-gradient(432deg, #F00 -54.76%, #FFD466 103.16%);
 }
 
 /* likes */
-
 .likes {
-	/* margin: 7px 0px 12px 21px; */
 	width: 360px;
 	display: grid;
 	grid-template-columns: 34px 28px 27px 28px 27px;
 	grid-template-rows: 32px 15px;
-
 }
 
 .avatar-wrapper1 {
@@ -474,10 +385,8 @@ header {
 
 .avatar-wrapper3 {
 	margin: 7px 0px 12px 21px;
-
 	width: 27px;
 	height: 25px;
-
 	position: relative;
 	left: 3px;
 
@@ -541,7 +450,7 @@ header {
 	color: #000;
 
 	/* Мелкий доп шрифт */
-	font-family: Montserrat;
+	font-family: "Montserrat";
 	font-size: 20px;
 	font-style: normal;
 	font-weight: 700;
@@ -641,13 +550,11 @@ header {
 	height: 242px;
 
 	background-color: white;
-	/* border-radius: 15px; */
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 
 }
 
 
-/* padding-left: 200px; */
 .leftPaddingFirstFoto {
 	margin-left: 16px;
 }
@@ -684,9 +591,6 @@ header {
 	width: 360px;
 	height: 167px;
 	background-image: url(./img/backgroundInteresno.png);
-
-
-
 }
 
 .interes-title {
@@ -697,8 +601,6 @@ header {
 	font-style: normal;
 	font-weight: 400;
 	line-height: 120%;
-	/* 21.6px */
-
 	margin-top: 10px;
 	margin-left: 20px;
 }
@@ -721,20 +623,14 @@ header {
 #bottomVideo {
 	width: 360px;
 	height: 250px;
-	/* border-radius: 15px; */
 }
-
-
-/* Конец */
 
 
 .bottom-video-menu {
 	display: flex;
 	align-items: flex-end;
 	height: 32px;
-	/* height: 35px; */
 	position: relative;
-	/* top: -35px; */
 	z-index: 999;
 	background-color: black;
 }
@@ -743,15 +639,6 @@ header {
 	border: 1px solid #000;
 	padding: 10px;
 	border-radius: 7px;
-
-	color: var(--, #000);
-	text-align: center;
-	font-feature-settings: 'clig' off, 'liga' off;
-
-	/* Основной текст */
-	/* font-family: Montserrat; */
-
-
 	color: var(--, #000);
 	text-align: center;
 	font-feature-settings: 'clig' off, 'liga' off;
@@ -761,9 +648,6 @@ header {
 	font-weight: 400;
 	line-height: 120%;
 	/* 16.8px */
-
-
-
 
 	box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.04), 0px 3px 8px 0px rgba(0, 0, 0, 0.12);
 
@@ -801,7 +685,6 @@ header {
 .footer {
 	width: 360px;
 	height: 477px;
-	/* background-image: url(./img/testFooter.jpg); */
 	background-color: black;
 	display: grid;
 	grid-template-rows: 70px 40px 1fr;
@@ -830,7 +713,6 @@ header {
 	font-style: normal;
 	font-weight: 400;
 	line-height: 140%;
-	/* /* 29.141px  */
 	margin: 0px 92px 26px 29px;
 }
 
@@ -846,7 +728,6 @@ header {
 	font-style: normal;
 	font-weight: 400;
 	line-height: 20px;
-	/* 142.857% */
 
 	margin: 5px 0px 0px 29px;
 }
