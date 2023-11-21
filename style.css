@@ -690,10 +690,11 @@ header {
 	grid-template-rows: 70px 40px 1fr;
 	gap: 10px;
 	color: white;
+	overflow: hidden;
 }
 
 .footer-title1 {
-	width: 320px;
+	width: 300px;
 	color: #FFF;
 	font-feature-settings: 'clig' off, 'liga' off;
 	font-family: Montserrat;
