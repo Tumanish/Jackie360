@@ -626,6 +626,9 @@ header {
 	height: 250px;
 }
 
+.bottom-video-menu--wrapper{
+	height: 250px;
+}
 
 .bottom-video-menu {
 	display: flex;
@@ -634,6 +637,8 @@ header {
 	position: relative;
 	z-index: 999;
 	background-color: black;
+	top: -35px;
+	background: transparent;
 }
 
 .bottom-video-menu__button {
