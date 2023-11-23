@@ -657,6 +657,10 @@ header {
 	cursor: pointer;
 }
 
+.bottom-video-menu__button--selected {
+	padding: 18px;
+}
+
 .bottom-video-menu__button:hover {
 	padding: 18px;
 

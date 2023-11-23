@@ -31,3 +31,21 @@ function starClick(element) {
 	}
 
 }
+
+
+
+function bottomMenuSelect(element){
+	// bottom-video-menu__button--selected
+
+	let buttons = document.querySelectorAll(".bottom-video-menu__button");
+
+	for (let i = 0; i < buttons.length; i++) {
+		buttons[i].classList.remove("bottom-video-menu__button--selected");
+		
+	}
+
+
+	element.classList.add("bottom-video-menu__button--selected");
+
+
+}
