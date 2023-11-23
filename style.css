@@ -658,11 +658,13 @@ header {
 }
 
 .bottom-video-menu__button--selected {
-	padding: 18px;
+	/* 18px */
+	padding: 16px;
 }
 
 .bottom-video-menu__button:hover {
-	padding: 18px;
+	/* 18px */
+	padding: 16px;
 
 }
 
