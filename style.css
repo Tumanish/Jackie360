@@ -157,7 +157,7 @@ header {
 	border-radius: 50%;
 	overflow: hidden;
 	align-self: center;
-	border: 2px solid green;
+	/* border: 2px solid green; */
 	position: relative;
 	top: 2px;
 }
@@ -768,3 +768,22 @@ header {
 .f-t-m3 {
 	margin-top: 7px;
 }
+
+
+/* звезда на видео */
+/* #section-main-video__star{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	cursor: pointer;
+	background-color: red;
+}
+.video-background{
+	position: relative;
+}
+.main-video__star--hide {
+	display: none;
+}
+*{
+	position: relative;
+} */
